@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: RIGHTMOVE_PROD
+    database: ANALYTICS
+    schema: RIGHTMOVE_PROD
+    tables:
+      - name: CLEAN_RAW_RIGHTMOVE_DATA
+
+  - name: EPC_TEST_DATA
+    database: RAW
+    schema: EPC_TEST_DATA
+    tables:
+      - name: EPC_CERTIFICATES
